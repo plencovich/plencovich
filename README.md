@@ -3,8 +3,12 @@
 
 Mi nombre es Diego Plencovich, soy de Argentina.
 
-* Actualmente estoy trabajando en el departamento IT de [PlanRombo Argentina](https://www.planrombo.com.ar)
-* También trabajo de desarrollador web y consultor informático de forma freelance.
+> [!IMPORTANT]
+> Actualmente estoy abierto a propuestas de trabajo; y sigo con tareas de desarrollador web y consultor informático de forma freelance.
+
+> [!NOTE]
+> Último trabajo en relación de dependencia con [CDA Informática](https://www.cdainfo.com) con asignación del cliente Renault Argentina para el departamento IT de [PlanRombo Argentina](https://www.planrombo.com.ar)
+
 
 
 ```php
@@ -17,14 +21,15 @@ class About extends Me
     public function getCurrentWorkplace(): array
     {
         return [
-            'workplace' => [
-                'company' => 'CDA Informática',
-                'position' => 'DevOps / WebDeveloper / Analista Funcional en PlanRombo-Renault Argentina'
-            ],
             'freelance' => [
                 'company' => 'Plen.co',
                 'position' => 'Consultoría Informática'
-            ]
+            ],
+            'lastWork' => [
+                'company' => 'CDA Informática',
+                'position' => 'DevOps / WebDeveloper / Analista Funcional en PlanRombo-Renault Argentina',
+                'duration' => '3 Años'
+            ],
         ];
     }
 
@@ -49,6 +54,5 @@ class About extends Me
 ## Contact
 
 - Linkedin: https://ar.linkedin.com/in/plencovich
-- Instagram: https://www.instagram.com/plencovich
-- Telegram: https://t.me/Plenco
 - Email: diego@plen.co
+- CV: https://cv.plen.co
