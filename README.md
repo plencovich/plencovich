@@ -3,14 +3,6 @@
 
 Mi nombre es Diego Plencovich, soy de Argentina.
 
-> [!IMPORTANT]
-> Actualmente estoy abierto a propuestas de trabajo; y sigo con tareas de desarrollador web y consultor informático de forma freelance.
-
-> [!NOTE]
-> Último trabajo en relación de dependencia con [CDA Informática](https://www.cdainfo.com) con asignación del cliente Renault Argentina para el departamento IT de [PlanRombo Argentina](https://www.planrombo.com.ar)
-
-
-
 ```php
 <?php
 
@@ -21,14 +13,33 @@ class About extends Me
     public function getCurrentWorkplace(): array
     {
         return [
-            'freelance' => [
-                'company' => 'Plen.co',
-                'position' => 'Consultoría Informática'
+            'current_work' => [
+                [
+                    'company' => 'SuryaDev',
+                    'position' => 'Analista Funcional / Web Developer',
+                    'duration' => 'present',
+                    'employment_type' => 'contractor'
+                ],
             ],
-            'lastWork' => [
-                'company' => 'CDA Informática',
-                'position' => 'DevOps / WebDeveloper / Analista Funcional en PlanRombo-Renault Argentina',
-                'duration' => '3 Años'
+            'work_experience' => [
+                [
+                    'company' => 'InfoControl',
+                    'position' => 'Analista Funcional / Web Developer',
+                    'duration' => '6 meses',
+                    'employment_type' => 'temporary contractor'
+                ],
+                [
+                    'company' => 'CDA Informática',
+                    'position' => 'Analista Funcional / Web Developer / DevOps -> Renault Argentina',
+                    'duration' => '3 Años',
+                    'employment_type' => 'employee'
+                ],
+                [
+                    'company' => 'Zennovia',
+                    'position' => 'Analista Funcional / Web Developer',
+                    'duration' => '1 Año',
+                    'employment_type' => 'contractor'
+                ]
             ],
         ];
     }
@@ -37,14 +48,16 @@ class About extends Me
     {
         return [
             Php::class,
-            Javascript::class,
             Symfony::class,
             Laravel::class,
+            Codeigniter::class,
+            Javascript::class,
+            NodeJs::class,
             ReactJs::class,
             ReactNative::class,
-            TailwindCss::class,
             Aws::class,
             GoogleCloud::class,
+            Azure::class,
             Docker::class
         ];
     }
