@@ -15,13 +15,19 @@ class About extends Me
         return [
             'current_work' => [
                 [
-                    'company' => 'SuryaDev',
-                    'position' => 'Analista Funcional / Web Developer',
+                    'company' => 'Utrace',
+                    'position' => 'Tech Leader',
                     'duration' => 'present',
                     'employment_type' => 'contractor'
                 ],
             ],
             'work_experience' => [
+                [
+                    'company' => 'SuryaDev',
+                    'position' => 'Analista Funcional / Web Developer',
+                    'duration' => '6 meses',
+                    'employment_type' => 'contractor'
+                ],
                 [
                     'company' => 'InfoControl',
                     'position' => 'Analista Funcional / Web Developer',
@@ -58,7 +64,7 @@ class About extends Me
             Aws::class,
             GoogleCloud::class,
             Azure::class,
-            Docker::class
+            Docker::class,
         ];
     }
 }
