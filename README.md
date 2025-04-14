@@ -15,10 +15,10 @@ class About extends Me
         return [
             'current_work' => [
                 [
-                    'company' => 'Utrace',
-                    'position' => 'Tech Leader',
+                    'company' => 'Qservices',
+                    'position' => 'Project Leader -> Prisma Medios de Pago',
                     'duration' => 'present',
-                    'employment_type' => 'contractor'
+                    'employment_type' => 'employee'
                 ],
             ],
             'work_experience' => [
