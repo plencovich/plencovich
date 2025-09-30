@@ -3,6 +3,8 @@
 
 Mi nombre es Diego Plencovich, soy de Argentina.
 
+Developer Full Stack | PHP Architect | Tech Lead | Agile Project Manager | DevOps Enthusiast
+
 ```php
 <?php
 
@@ -15,13 +17,19 @@ class About extends Me
         return [
             'current_work' => [
                 [
-                    'company' => 'Qservices',
-                    'position' => 'Project Leader -> Prisma Medios de Pago',
+                    'company' => 'Provincia NET',
+                    'position' => 'Desarrollador PHP / Python - Bapro Medios de Pagos',
                     'duration' => 'present',
                     'employment_type' => 'employee'
                 ],
             ],
             'work_experience' => [
+                [
+                    'company' => 'Qservices',
+                    'position' => 'Project Leader -> Prisma Medios de Pago',
+                    'duration' => '1 Año',
+                    'employment_type' => 'employee'
+                ],
                 [
                     'company' => 'SuryaDev',
                     'position' => 'Analista Funcional / Web Developer',
