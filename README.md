@@ -81,5 +81,4 @@ class About extends Me
 ## Contact
 
 - Linkedin: https://ar.linkedin.com/in/plencovich
-- Email: diego@plen.co
-- CV: https://cv.plen.co
+- Email: diego@plencovich.com
