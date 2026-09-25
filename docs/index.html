@@ -1,135 +1,223 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Plenco | Diego Plencovich - DevOps / Web Developer / IT Consultant / Project Manager / Tech Leader</title>
-    <meta name="description" content="Hola, mi nombre es Diego Plenco. Soy desarrollador web y doy servicios de consultoría informática. Diseño y Desarrollo Web, Aplicaciones para móviles iOS y Android, Sistemas de gestión personalizados con facturación electrónica AFIP, Tiendas ecommerce Online">
-    <meta name="keywords" content="desarrollo web, devops, aws, google cloud, php, pergamino">
-    <meta name="author" content="Diego Mariano Plencovich">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diego Plencovich | Analista Funcional, Full Stack Developer y Tech Lead</title>
+  <meta name="description" content="Analista funcional y desarrollador full stack senior especializado en PHP, Python, Node.js, JavaScript, AWS, integraciones, DevOps y liderazgo técnico.">
+  <meta name="author" content="Diego Mariano Plencovich">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#0a1628">
+  <link rel="canonical" href="https://plencovich.com/">
 
-    <meta name="theme-color" content="#188dba">
-    <meta name="country" content="Argentina" />
-    <meta name="geo.country" content="AR" />
-    <meta name="robots" content="index,follow" />
-    <meta name="googlebot" content="index,follow" />
-    <meta name="google" content="notranslate" />
+  <meta property="og:type" content="profile">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:site_name" content="Diego Plencovich">
+  <meta property="og:title" content="Diego Plencovich | Analista Funcional, Full Stack Developer y Tech Lead">
+  <meta property="og:description" content="Analista funcional y desarrollador full stack senior especializado en PHP, Python, Node.js, JavaScript, AWS, integraciones, DevOps y liderazgo técnico.">
+  <meta property="og:url" content="https://plencovich.com/">
+  <meta property="og:image" content="https://plencovich.com/assets/diego-plencovich.jpg">
+  <meta property="og:image:width" content="1400">
+  <meta property="og:image:height" content="1600">
+  <meta property="og:image:alt" content="Retrato profesional de Diego Mariano Plencovich">
+  <meta property="profile:first_name" content="Diego Mariano">
+  <meta property="profile:last_name" content="Plencovich">
 
-    <link rel="canonical" href="https://plen.co/" />
-    <meta name="revisit" content="7 days" />
-    <meta name="revisit-after" content="7 days" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Diego Plencovich | Analista Funcional, Full Stack Developer y Tech Lead">
+  <meta name="twitter:description" content="Analista funcional y desarrollador full stack senior especializado en software, cloud, integraciones y liderazgo técnico.">
+  <meta name="twitter:image" content="https://plencovich.com/assets/diego-plencovich.jpg">
+  <meta name="twitter:image:alt" content="Retrato profesional de Diego Mariano Plencovich">
 
-    <meta name="ICBM" content="-33.8841085,-60.5793506" />
-    <meta name="geo.position" content="-33.8841085;-60.5793506" />
-    <meta name="geo.placename" content="Bv. Ameghino 356, 2700 Pergamino, Buenos Aires" />
-    <meta name="geo.region" content="AR-B" />
-    <meta name="geo.placename" content="Pergamino" />
-    <meta name="rating" content="General" />
-    <meta name="classification" content="web design, internet, software, web developer" />
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="./assets/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" sizes="180x180">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <script src="./assets/js/main.js" defer></script>
 
-    <meta itemprop="name" content="Plenco | Diego Plencovich - Desarrollo Web en Pergamino">
-    <meta itemprop="description" content="Diseño y Desarrollo Web, Aplicaciones para móviles iOS y Android, Sistemas de gestión personalizados con facturación electrónica AFIP, Tiendas ecommerce Online.">
-    <meta itemprop="image" content="assets/logo_200_color.png">
-
-    <meta name="creator" content="Diego Plencovich (Plen.co)" />
-    <meta name="publisher" content="Diego Plencovich (Plen.co)" />
-    <meta name="developer" content="Diego Plencovich (Plen.co)">
-
-    <meta property="og:title" content="Plenco | Diego Plencovich - Desarrollo Web en Pergamino" />
-    <meta property="og:site_name" content="Plenco | Diego Plencovich - Desarrollo Web en Pergamino" />
-    <meta property="og:description" content="Diseño y Desarrollo Web, Aplicaciones para móviles iOS y Android, Sistemas de gestión personalizados con facturación electrónica AFIP, Tiendas ecommerce Online." />
-    <meta property="og:type" content="profile" />
-    <meta property="profile:first_name" content="Diego Mariano" />
-    <meta property="profile:last_name" content="Plencovich" />
-    <meta property="profile:username" content="plenco" />
-    <meta property="profile:gender" content="male" />
-    <meta property="og:url" content="https://plen.co/" />
-    <meta property="og:image" content="assets/logo_200_color.png" />
-    <meta property="og:image:url" content="assets/logo_200_color.png" />
-    <meta property="og:image:secure_url" content="assets/logo_200_color.png" />
-    <meta property="og:image:width" content="200" />
-    <meta property="og:image:height" content="200" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:locale" content="es_ES" />
-    <meta property="og:locale:alternate" content="es_LA" />
-
-    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto:200,600" rel="stylesheet">
-    <style>
-        body,
-        html {
-            background-color: #fff;
-            color: #636b6f;
-            font-family: Roboto, sans-serif;
-            font-weight: 200;
-            height: 100vh;
-            margin: 0
-        }
-
-        .full-height {
-            height: 100vh
-        }
-
-        .flex-center {
-            align-items: center;
-            display: flex;
-            justify-content: center
-        }
-
-        .position-ref {
-            position: relative
-        }
-
-        .top-right {
-            position: absolute;
-            right: 10px;
-            top: 18px
-        }
-
-        .content {
-            text-align: center
-        }
-
-        .title {
-            font-size: 32px
-        }
-
-        .links>a {
-            color: #636b6f;
-            padding: 0 25px;
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .1rem;
-            text-decoration: none;
-            text-transform: uppercase
-        }
-
-        .m-b-md {
-            margin-bottom: 30px
-        }
-    </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Diego Mariano Plencovich",
+    "alternateName": "Plenco",
+    "url": "https://plencovich.com/",
+    "image": "https://plencovich.com/assets/diego-plencovich.jpg",
+    "jobTitle": "Analista Funcional, Full Stack Developer Senior y Líder Técnico",
+    "description": "Analista funcional y desarrollador full stack senior especializado en software, integraciones, cloud y liderazgo técnico.",
+    "email": "mailto:diego@plencovich.com",
+    "sameAs": [
+      "https://www.linkedin.com/in/plencovich/",
+      "https://github.com/plencovich"
+    ],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Zystek",
+      "url": "https://zystek.ar/"
+    }
+  }
+  </script>
 </head>
-
 <body>
-    <div class="flex-center position-ref full-height">
-        <div class="top-right links">
-            <a href="https://github.com/plencovich">GITHUB</a>
-            <a href="https://ar.linkedin.com/in/plencovich">LINKEDIN</a>
-            <a href="https://cv.plen.co">CV</a>
-        </div>
-        <div class="content">
-            <div class="title m-b-md">
-                <img width="160px" src="assets/logo_frontend_mix_black.png">
-                <br>
-                Diego Plencovich
-            </div>
-            <p>DevOps / Web Developer / IT Consultant / Project Manager / Tech Leader</p>
-        </div>
-    </div>
-</body>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
 
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Diego Plencovich, ir al inicio">
+        <span class="brand-monogram" aria-hidden="true">DP</span>
+        <span class="brand-name">Diego Plencovich</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="site-navigation" data-menu-toggle>
+        <span class="menu-toggle-line" aria-hidden="true"></span>
+        <span class="menu-toggle-line" aria-hidden="true"></span>
+        <span class="menu-toggle-line" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="site-navigation" aria-label="Navegación principal" data-navigation>
+        <a href="#perfil">Perfil</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#stack">Stack</a>
+        <a href="#contacto">Contacto</a>
+        <a class="button button-primary nav-cv" href="./assets/CV-Diego-Plencovich.pdf" download>Descargar CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero section-surface" id="inicio" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Análisis funcional · Desarrollo full stack · Liderazgo técnico</p>
+          <h1 id="hero-title">Convierto necesidades de negocio en soluciones de software claras y mantenibles.</h1>
+          <p class="hero-description">Soy Diego Mariano Plencovich, aunque todos me dicen Plenco. Analista funcional y desarrollador full stack senior con experiencia en plataformas de pago, sistemas empresariales, integraciones y entornos cloud. Participo en todo el ciclo: desde el relevamiento y la definición de la solución hasta el desarrollo, despliegue y evolución en producción.</p>
+          <div class="button-row hero-actions">
+            <a class="button button-primary" href="#experiencia">Conocer mi experiencia</a>
+            <a class="button button-secondary external-link" href="https://www.linkedin.com/in/plencovich/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span><span class="sr-only"> (se abre en una nueva pestaña)</span></a>
+          </div>
+        </div>
+
+        <figure class="hero-portrait">
+          <picture>
+            <source srcset="./assets/diego-plencovich.webp" type="image/webp">
+            <img src="./assets/diego-plencovich.jpg" width="1400" height="1600" alt="Diego Mariano Plencovich, analista funcional y desarrollador full stack senior" fetchpriority="high" loading="eager" decoding="async">
+          </picture>
+          <figcaption class="location-badge"><span class="status-dot" aria-hidden="true"></span>Buenos Aires · Trabajo remoto</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="perfil" aria-labelledby="perfil-title">
+      <div class="container">
+        <p class="eyebrow">Perfil profesional</p>
+        <h2 id="perfil-title">Análisis primero. Tecnología con propósito.</h2>
+        <div class="profile-copy section-intro">
+          <p>Mi principal fortaleza es conectar las necesidades del negocio con su implementación tecnológica. Analizo procesos, reglas, integraciones y escenarios reales para convertir requerimientos en soluciones que puedan desarrollarse, probarse y mantenerse.</p>
+          <p>Trabajo en backend con PHP, Python y Node.js, y en frontend con JavaScript, Vue.js, ReactJS y HTML5. También cuento con experiencia en AWS, GCP, Docker, Kubernetes, CI/CD y operación de aplicaciones en producción.</p>
+          <p>A lo largo de mi carrera asumí responsabilidades como líder técnico y líder de proyecto, coordinando equipos y trabajando con clientes, Desarrollo, QA, Producto, Seguridad e Infraestructura.</p>
+        </div>
+
+        <div class="expertise-grid">
+          <article class="card expertise-card">
+            <div class="card-heading"><h3>Análisis funcional</h3><span aria-hidden="true">01</span></div>
+            <p>Procesos, requerimientos, integraciones, reglas de negocio y articulación entre usuarios y tecnología.</p>
+          </article>
+          <article class="card expertise-card">
+            <div class="card-heading"><h3>Desarrollo y arquitectura</h3><span aria-hidden="true">02</span></div>
+            <p>PHP, Laravel, Symfony, Python, Node.js, JavaScript, Vue.js, ReactJS, APIs y bases de datos.</p>
+          </article>
+          <article class="card expertise-card">
+            <div class="card-heading"><h3>Liderazgo y delivery</h3><span aria-hidden="true">03</span></div>
+            <p>Definición técnica, code reviews, coordinación de equipos, DevOps, CI/CD y acompañamiento hasta producción.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-surface" id="experiencia" aria-labelledby="experiencia-title">
+      <div class="container">
+        <p class="eyebrow">Experiencia profesional</p>
+        <h2 id="experiencia-title">Trayectoria en productos, plataformas e integraciones.</h2>
+        <p class="section-intro">Experiencia hands-on y de liderazgo en fintech, industria automotriz, sistemas empresariales y soluciones cloud.</p>
+
+        <div class="experience-list">
+          <article class="card experience-card">
+            <div class="experience-meta"><p class="period">2025 — Actualidad</p><h3>ProvinciaNET</h3></div>
+            <div class="experience-detail"><h4>Full Stack Developer Senior · Proyectos Internos IT</h4><p>Análisis y desarrollo de soluciones para plataformas de pago. APIs, servicios backend, evolución de aplicaciones e infraestructura cloud, con foco en estabilidad, escalabilidad y calidad.</p><p class="technology-list"><span class="sr-only">Tecnologías: </span>PHP · Python · Node.js · TypeScript · AWS · Kubernetes · Kafka · Codex · Claude</p></div>
+          </article>
+          <article class="card experience-card">
+            <div class="experience-meta"><p class="period">2024 — 2025</p><h3>QServices · Payway</h3></div>
+            <div class="experience-detail"><h4>Líder de Proyecto · Backend Developer</h4><p>Coordinación técnica del equipo asignado a PRISMA/Payway, análisis de requerimientos, desarrollo backend, code reviews y seguimiento de entregables con el cliente.</p><p class="technology-list"><span class="sr-only">Tecnologías: </span>Node.js · TypeScript · PHP · Laravel · Jira · Claude</p></div>
+          </article>
+          <article class="card experience-card">
+            <div class="experience-meta"><p class="period">2024</p><h3>InfoControl</h3></div>
+            <div class="experience-detail"><h4>Backend Developer Senior</h4><p>Modernización y dockerización de soluciones empresariales, integraciones y procesamiento documental con servicios de inteligencia artificial en Azure.</p><p class="technology-list"><span class="sr-only">Tecnologías: </span>APIs · Docker · Azure AI · SQL · CI/CD</p></div>
+          </article>
+          <article class="card experience-card">
+            <div class="experience-meta"><p class="period">2021 — 2024</p><h3>CDA · Renault Argentina</h3></div>
+            <div class="experience-detail"><h4>Líder Técnico · Analista Funcional · Developer · DevOps</h4><p>Relevamiento de necesidades, definición de soluciones y coordinación técnica para Renault Argentina y Plan Rombo. Integraciones con Salesforce, SAP y ServiceNow, y despliegues sobre AWS EKS.</p><p class="technology-list"><span class="sr-only">Tecnologías: </span>Node.js · TypeScript · AWS EKS · Kubernetes · Salesforce · SAP · ServiceNow</p></div>
+          </article>
+          <article class="card experience-card">
+            <div class="experience-meta"><p class="period">2020</p><h3>Zennovia</h3></div>
+            <div class="experience-detail"><h4>Backend Developer Senior · Líder Técnico</h4><p>Desarrollo y liderazgo técnico en plataformas empresariales, revisión de código, análisis funcional e interacción directa con clientes.</p><p class="technology-list"><span class="sr-only">Tecnologías: </span>PHP · Symfony · Laravel · MySQL · Code review</p></div>
+          </article>
+          <article class="card experience-card">
+            <div class="experience-meta"><p class="period">1999 — 2021</p><h3>Plen.co · Independiente</h3></div>
+            <div class="experience-detail"><h4>Analista Funcional · Full Stack Developer · DevOps</h4><p>Diseño y construcción de sistemas de gestión, ecommerce y aplicaciones web a medida, desde el relevamiento inicial hasta producción y mantenimiento.</p><p class="technology-list"><span class="sr-only">Tecnologías: </span>PHP · JavaScript · Vue.js · ReactJS · AWS · GCP</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="stack" aria-labelledby="stack-title">
+      <div class="container">
+        <p class="eyebrow">Stack y herramientas</p>
+        <h2 id="stack-title">Tecnología al servicio del problema.</h2>
+        <div class="stack-grid">
+          <article class="card stack-card"><h3>Backend</h3><p>PHP · Laravel · Symfony · Python · Node.js · TypeScript</p></article>
+          <article class="card stack-card"><h3>Frontend</h3><p>JavaScript · Vue.js · ReactJS · HTML5 · CSS · Figma</p></article>
+          <article class="card stack-card"><h3>Cloud &amp; DevOps</h3><p>AWS · GCP · Docker · Kubernetes · EKS · CI/CD</p></article>
+          <article class="card stack-card stack-wide"><h3>Datos e integraciones</h3><p>MySQL · PostgreSQL · SQL · MongoDB · APIs REST · Kafka</p></article>
+          <article class="card stack-card stack-wide"><h3>IA aplicada</h3><p>Codex · ChatGPT · Claude · asistencia en desarrollo, pruebas, documentación y análisis técnico</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="zystek" id="zystek" aria-labelledby="zystek-title">
+      <div class="container zystek-inner">
+        <div>
+          <p class="eyebrow">Desarrollo de software a medida</p>
+          <h2 id="zystek-title">¿Necesitás desarrollar software para tu empresa?</h2>
+          <p>A través de Zystek trabajo en proyectos de software a medida, automatización, ecommerce y sistemas de gestión.</p>
+        </div>
+        <a class="button button-primary external-link" href="https://zystek.ar/" target="_blank" rel="noopener noreferrer">Conocer Zystek <span aria-hidden="true">→</span><span class="sr-only"> (se abre en una nueva pestaña)</span></a>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto" aria-labelledby="contacto-title">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Contacto</p>
+          <h2 id="contacto-title">Hablemos de tecnología, producto o una próxima oportunidad.</h2>
+          <p>Podés escribirme directamente o encontrarme en LinkedIn y GitHub.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:diego@plencovich.com">diego@plencovich.com</a>
+          <a class="button button-light external-link" href="https://www.linkedin.com/in/plencovich/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span><span class="sr-only"> (se abre en una nueva pestaña)</span></a>
+          <a class="button button-light external-link" href="https://github.com/plencovich" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (se abre en una nueva pestaña)</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span data-current-year>2026</span> Diego Mariano Plencovich · Argentina</p>
+      <p>Análisis funcional · Full Stack · Liderazgo técnico</p>
+    </div>
+  </footer>
+</body>
 </html>
