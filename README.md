@@ -1,84 +1,28 @@
-# Diego Mariano Plencovich [ PLENCO ]
-## Hola! 👋
+# Diego Mariano Plencovich — Plenco
 
-Mi nombre es Diego Plencovich, soy de Argentina.
+**Analista Funcional · Full Stack Developer Senior · Tech Lead · Project Lead**
 
-Developer Full Stack | PHP Architect | Tech Lead | Agile Project Manager | DevOps Enthusiast
+Desarrollo y evoluciono aplicaciones empresariales, plataformas de pago, APIs e integraciones. Mi trabajo combina análisis funcional, desarrollo de software, infraestructura cloud y liderazgo técnico.
 
-```php
-<?php
+## Áreas principales
 
-namespace Plencovich;
+- Análisis de procesos, requerimientos e integraciones
+- Desarrollo backend con PHP, Python y Node.js
+- Frontend con JavaScript, Vue.js, ReactJS y HTML5
+- AWS, GCP, Docker, Kubernetes y CI/CD
+- APIs REST, sistemas distribuidos y arquitecturas orientadas a eventos
+- Liderazgo técnico, code reviews y coordinación de proyectos
+- Desarrollo asistido con ChatGPT, Codex y Claude
 
-class About extends Me
-{
-    public function getCurrentWorkplace(): array
-    {
-        return [
-            'current_work' => [
-                [
-                    'company' => 'Provincia NET',
-                    'position' => 'Desarrollador PHP / Python - Bapro Medios de Pagos',
-                    'duration' => 'present',
-                    'employment_type' => 'employee'
-                ],
-            ],
-            'work_experience' => [
-                [
-                    'company' => 'Qservices',
-                    'position' => 'Project Leader -> Prisma Medios de Pago',
-                    'duration' => '1 Año',
-                    'employment_type' => 'employee'
-                ],
-                [
-                    'company' => 'SuryaDev',
-                    'position' => 'Analista Funcional / Web Developer',
-                    'duration' => '6 meses',
-                    'employment_type' => 'contractor'
-                ],
-                [
-                    'company' => 'InfoControl',
-                    'position' => 'Analista Funcional / Web Developer',
-                    'duration' => '6 meses',
-                    'employment_type' => 'temporary contractor'
-                ],
-                [
-                    'company' => 'CDA Informática',
-                    'position' => 'Analista Funcional / Web Developer / DevOps -> Renault Argentina',
-                    'duration' => '3 Años',
-                    'employment_type' => 'employee'
-                ],
-                [
-                    'company' => 'Zennovia',
-                    'position' => 'Analista Funcional / Web Developer',
-                    'duration' => '1 Año',
-                    'employment_type' => 'contractor'
-                ]
-            ],
-        ];
-    }
+## Tecnologías
 
-    public function getDailyKnowledge(): array
-    {
-        return [
-            Php::class,
-            Symfony::class,
-            Laravel::class,
-            Codeigniter::class,
-            Javascript::class,
-            NodeJs::class,
-            ReactJs::class,
-            ReactNative::class,
-            Aws::class,
-            GoogleCloud::class,
-            Azure::class,
-            Docker::class,
-        ];
-    }
-}
-```
+**Backend:** PHP, Laravel, Symfony, Python, Flask, Node.js y TypeScript
+**Frontend:** JavaScript, Vue.js, ReactJS, HTML5 y CSS3
+**Cloud y DevOps:** AWS, GCP, Docker, Kubernetes, GitLab CI/CD y Azure DevOps
+**Datos e integraciones:** MySQL, SQL, DynamoDB, Kafka, SQS y APIs REST
 
-## Contact
+## Contacto
 
-- Linkedin: https://ar.linkedin.com/in/plencovich
-- Email: diego@plencovich.com
+- Web: https://plencovich.com
+- LinkedIn: https://www.linkedin.com/in/plencovich/
+- Proyectos de software a medida: https://zystek.ar/
